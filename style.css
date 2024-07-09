@@ -1,0 +1,345 @@
+/*=============================== HOME PAGE ===============================*/
+
+.body-home {
+    background-image: url('images/index-background.jpeg') ;
+    background-position: center ;
+    background-repeat: no-repeat ;
+    background-attachment: fixed ;
+    background-size: cover ;
+}
+
+#home img {
+     width: 350px ;
+    display: block ;
+    margin: auto ;
+    padding: 25px 10px 10px 10px ;
+}
+
+.home-logo-text {
+    color: white ;
+    font-size: 33px ;
+    font-style: italic ;
+    margin: auto ;
+    text-align: center ;
+    padding-bottom: 10px ;
+    padding-left: 5px ;
+}
+
+.home-menu-item {
+   text-decoration: none ;
+    text-transform: uppercase ;
+    
+    color: white;
+    font-size: 25px ;
+    font-weight: bold ;
+    text-align: center ;
+    border: 5px solid white ;
+    
+    display: block ;
+    margin: auto ;
+    margin-bottom: 10px ;
+    width: 80% ;
+}
+
+/*=================================== MEALS PAGE ======================================*/
+
+.body-meals {
+    background-image: url('images/meals-background-land.jpeg') ;
+    background-position: center ;
+    background-repeat: no-repeat ;
+    background-attachment: fixed ;
+    background-size: cover ;
+}
+
+.header {
+    background-color: #D358F7;
+    
+    width: 100% ;
+    height: 75px ;
+    top: 0 ;
+    
+    position: fixed ;
+    overflow: hidden ;
+    
+    text-align: center ;
+}
+
+.header i {
+    float: left ;
+    padding: 30px 0px 0px 25px ;
+    color: black;
+}
+
+.header img{
+    width: 150px ;
+    padding-top: 15px ;
+    padding-right: 25px ;
+}
+
+#meals{
+    padding-top: 75px ;
+}
+
+.meals-list a {
+    text-decoration: none ;
+}
+
+.meals-list-item {
+    border: 5px solid white ; 
+    margin: 10px ;
+}
+
+.meals-list-item h1 {
+    font-weight: bold ;
+    font-size: 25px ;
+    color: white;
+    padding-left: 10px ;
+}
+
+.meals-list-item i{
+    float: right ;
+    padding-right: 10px ;
+    color: white;
+}
+
+.meals-list-item p {
+    font-size: 15px ;
+    font-style: italic ;
+    color: white;
+    margin-top: -7px ;
+    padding-left: 10px ;
+}
+
+/*==================================== DRINKS PAGE =================================*/
+
+.body-drinks{
+    background-image: url('images/Drinks-background-port.webp') ;
+    background-position: center ;
+    background-repeat: no-repeat ;
+    background-attachment: fixed ;
+    background-size: cover ;
+}
+
+.header {
+    background-color: #D358F7;
+    
+    width: 100% ;
+    height: 75px ;
+    top: 0 ;
+    
+    position: fixed ;
+    overflow: hidden ;
+    
+    text-align: center ;
+}
+
+.header i {
+    float: left ;
+    padding: 30px 0px 0px 25px ;
+    color: black;
+}
+
+.header img{
+    width: 150px ;
+    padding-top: 15px ;
+    padding-right: 25px ;
+}
+
+#drinks{
+    padding-top: 75px ;
+}
+
+.drinks-list a {
+    text-decoration: none ;
+}
+
+.drinks-list-item {
+    border: 5px solid black ; 
+    margin: 10px ;
+}
+
+.drinks-list-item h1 {
+    font-weight: bold ;
+    font-size: 25px ;
+    color: black;
+    padding-left: 10px ;
+}
+
+.drinks-list-item i{
+    float: right ;
+    padding-right: 10px ;
+    color: black;
+}
+
+.drinks-list-item p {
+    font-size: 15px ;
+    font-style: italic ;
+    color: black;
+    margin-top: -7px ;
+    padding-left: 10px ;
+}
+/*============================================= DESERTS PAGE =================================*/
+
+.body-deserts{
+    background-image: url('images/Deserts-background-port-1.jpg') ;
+    background-position: center ;
+    background-repeat: no-repeat ;
+    background-attachment: fixed ;
+    background-size: cover ;
+}
+
+.header {
+    background-color: #D358F7;
+    
+    width: 100% ;
+    height: 75px ;
+    top: 0 ;
+    
+    position: fixed ;
+    overflow: hidden ;
+    
+    text-align: center ;
+}
+
+.header i {
+    float: left ;
+    padding: 30px 0px 0px 25px ;
+    color: black;
+}
+
+.header img{
+    width: 150px ;
+    padding-top: 15px ;
+    padding-right: 25px ;
+}
+
+/*============================================== FOOD ITEM PAGE ======================================*/
+
+.food {
+    background-image: url('images/index-background.jpeg') ;
+    background-position: center ;
+    background-repeat: no-repeat ;
+    background-attachment: fixed ;
+    background-size: cover ;
+}
+#food-item {
+    padding-top: 75px ;
+    width: 100% ;
+    padding-right: 495px ;
+}
+
+.food-info {
+    color: white ;
+    font-size: 20px ;
+}
+
+.food-info img{
+    width: 100% ;
+}
+
+.checkbox {
+     color: white ;
+}
+
+textarea {
+    width: 100%;
+    height : 50px;
+    border : 1px solid white;
+}
+
+.button{
+      display : block;
+      background-color: #D358F7 ;
+      text-decoration : none;
+      text-align  : center;
+      color       : white;
+      font-size   : 16px;
+      font-weight : 600;
+      margin : 12px 0;
+      padding : 8px 0;
+      width: 100% ;
+}
+
+/*========================= RESPONSIVE LAYOUT ==========================*/
+
+@media only screen and (min-width: 600px) {
+    #meals {
+        width: 80% ;
+        margin: auto ;
+    }
+    
+    #food-item {
+        width: 80% ;
+        margin: auto ;
+    }
+    
+    #drinks {
+        width: 80% ;
+        margin: auto ;
+    }
+    
+    #home {
+        width: 80% ;
+        margin: auto ;
+    }
+    
+    
+}
+
+@media only screen and (min-width: 1000px) {
+    #meals {
+        width: 60% ;
+        margin: auto ;
+    }
+    
+    #food-item {
+        width: 60% ;
+        margin: auto ;
+    }
+    
+    #drinks {
+        width: 60% ;
+        margin: auto ;
+    }
+    
+    #home {
+        width: 60% ;
+        margin: auto ;
+    }
+    
+}
+
+@media only screen and (min-width: 1500px) {
+    #meals {
+        width: 40% ;
+        margin: auto ;
+    }
+    
+    #food-item {
+        width: 40% ;
+        margin: auto ;
+    }
+    
+    #home {
+        width: 40% ;
+        margin: auto ;
+    }
+    
+    #drinks {
+        width: 40% ;
+        margin: auto ;
+    }
+    
+    }
+
+
+
+
+
+
+
+
+
+
+
+
